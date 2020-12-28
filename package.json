@@ -1,0 +1,20 @@
+{
+  "name": "PortFolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "ghpages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshhindinamani/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/ganeshhindinamani/portfolio",
+  "dependencies": {
+    "ghpages": "0.0.10"
+  }
+}
