@@ -57,13 +57,12 @@ img {
   justify-content: stretch;
   gap: 2rem;
   padding: 2rem 0;
-  background-color: #047aed;
+  background-color: #fff;
   padding: 2rem;
 }
 .card {
-  background: #f4f4f4;
-  overflow: hidden;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
 }
 
 nav .flex {
@@ -104,12 +103,11 @@ nav .social-links a:hover {
 .gallery {
   padding: 2rem 0;
 }
-.card p {
-  padding: 1rem 0;
-  text-align: center;
-  background: #047aed;
-  font-size: 1.5rem;
-  color: #f9f9f9;
+.gallery .card {
+  transition: transform 650ms ease-in-out;
+}
+.gallery .card:hover {
+  transform: translateY(-5%);
 }
 
 /* About */
