@@ -34,8 +34,8 @@ a {
 }
 
 img {
+  height: 100%;
   width: 100%;
-  height: auto;
   display: block;
 }
 
@@ -122,7 +122,7 @@ nav .social-links a:hover {
 }
 .about .image-container {
   padding: 1rem;
-  width: 30%;
+  width: 20rem;
 }
 .about img {
   border-radius: 50%;
@@ -194,6 +194,9 @@ nav .social-links a:hover {
 }
 
 @media screen and (max-width: 550px) {
+  .about {
+    height: initial;
+  }
   .card p {
     font-size: 1.4rem;
   }
